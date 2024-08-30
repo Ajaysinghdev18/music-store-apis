@@ -49,7 +49,7 @@ const FORGOT_PASSWORD_EMAIL_TEMPLATE = {
             <td align="center" >
               <div style="max-width:460px;font-family: arial,sans-serif;">
                 <h1 style="font-size:24px;line-height:30px;color:#00FFFF;margin:0 0 8px 0;font-weight:bold">
-                  <span>Changing your D-Music password</span>
+                  <span>Changing your Account password</span>
                 </h1>
                 <p style="font-size:16px;line-height:21px;color:#FFFFFF;margin:0;">
                   <span>Need to reset your password?<br/>No problem, just click below to get started.</span>
@@ -76,7 +76,7 @@ const FORGOT_PASSWORD_EMAIL_TEMPLATE = {
             <span>If you didn’t request a password reset,<br/>you can ignore this message.</span>
           </p>
           <p style="margin:48px 0 0 0;line-height:23px;font-size:12px;font-family:arial,sans-serif;color:#ffffff;">
-            <span>D-Music Ltd • 569 Yates St. • Victoria, BC V8W8K8, Canada</span>
+            <span>Music Store Ltd</span>
           </p>
           <img style="margin:24px 0 0 0;" src="${BACKEND_URL}/icons/logo.svg"/>
         </div>
@@ -85,7 +85,7 @@ const FORGOT_PASSWORD_EMAIL_TEMPLATE = {
     </tbody>
   </table>
 </div>
-  `
+  `,
 };
 
 const CREATE_ACCOUNT_HAS_TOKEN_TEMPLATE = {
@@ -140,7 +140,7 @@ const CREATE_ACCOUNT_HAS_TOKEN_TEMPLATE = {
                                     <span>Verify your email address</span>
                                 </h1>
                                 <p style="font-size:16px;line-height:21px;color:#FFFFFF;margin:0 0 8px 0;">
-                                    <span>Hello Jane Doe!<br/>To start using D-Music, we need to verify your email ID</span>
+                                    <span>Hello Jane Doe!<br/>To start accessing Music Store, we need to verify your email ID</span>
                                 </p>
                                 <a style="margin:0;line-height:21px;font-size:16px;font-family:arial,sans-serif;color:#00FFFF;">
                                     EmailAddress
@@ -163,7 +163,7 @@ const CREATE_ACCOUNT_HAS_TOKEN_TEMPLATE = {
             <td align="center" valign="top">
                 <div style="width:100%;max-width:640px;text-align:center;padding:32px 15px;">
                     <p style="margin:0;line-height:23px;font-size:12px;font-family:arial,sans-serif;color:#ffffff;">
-                        <span>D-Music Ltd • 569 Yates St. • Victoria, BC V8W8K8, Canada</span>
+                        <span>Music Store Ltd</span>
                     </p>
                     <img style="margin:24px 0 0 0;" src="${BACKEND_URL}/icons/logo.svg"/>
                 </div>
@@ -172,7 +172,7 @@ const CREATE_ACCOUNT_HAS_TOKEN_TEMPLATE = {
         </tbody>
     </table>
 </div>
-`
+`,
 };
 
 const CREATE_ACCOUNT_EMAIL_TEMPLATE = {
@@ -250,7 +250,7 @@ const CREATE_ACCOUNT_EMAIL_TEMPLATE = {
           <td align="center" valign="top">
             <div style="width:100%;max-width:640px;margin:0 auto;text-align:center;padding:30px 15px;">
               <p style="margin:0;line-height:23px;font-size:12px;font-family:arial,sans-serif;color:#ffffff;">
-                <span>D-Music Ltd • 569 Yates St. • Victoria, BC V8W8K8, Canada</span>
+                <span>Music Store Ltd</span>
               </p>
               <img style="margin:48px 0 0 0;" src="${BACKEND_URL}/icons/logo.svg"/>
             </div>
@@ -259,7 +259,7 @@ const CREATE_ACCOUNT_EMAIL_TEMPLATE = {
         </tbody>
       </table>
     </div>
-  `
+  `,
 };
 
 const CREATE_GALLERY_EMAIL_TEMPLATE = {
@@ -337,7 +337,7 @@ const CREATE_GALLERY_EMAIL_TEMPLATE = {
       <td align="center" valign="top">
         <div style="width:100%;max-width:640px;margin:0 auto;text-align:center;padding:30px 15px;">
           <p style="margin:0;line-height:23px;font-size:12px;font-family:arial,sans-serif;color:#ffffff;">
-            <span>D-Music Ltd • 569 Yates St. • Victoria, BC V8W8K8, Canada</span>
+            <span>Music Store Ltd</span>
           </p>
           <img style="margin:48px 0 0 0;" src="${BACKEND_URL}/icons/logo.svg"/>
         </div>
@@ -347,7 +347,7 @@ const CREATE_GALLERY_EMAIL_TEMPLATE = {
   </table>
 </div>
 
-  `
+  `,
 };
 
 const CREATE_PRODUCT_EMAIL_TEMPLATE = {
@@ -425,7 +425,7 @@ const CREATE_PRODUCT_EMAIL_TEMPLATE = {
       <td align="center" valign="top">
         <div style="width:100%;max-width:640px;margin:0 auto;text-align:center;padding:30px 15px;">
           <p style="margin:0;line-height:23px;font-size:12px;font-family:arial,sans-serif;color:#ffffff;">
-            <span>D-Music Ltd • 569 Yates St. • Victoria, BC V8W8K8, Canada</span>
+            <span>Music Store Ltd</span>
           </p>
           <img style="margin:48px 0 0 0;" src="${BACKEND_URL}/icons/logo.svg"/>
         </div>
@@ -435,7 +435,7 @@ const CREATE_PRODUCT_EMAIL_TEMPLATE = {
   </table>
 </div>
 
-  `
+  `,
 };
 
 const CREATE_ORDER_EMAIL_TEMPLATE = {
@@ -654,7 +654,7 @@ const CREATE_ORDER_EMAIL_TEMPLATE = {
                   style="margin: 0; line-height: 23px; font-size: 12px; font-family: arial, sans-serif; color: #ffffff"
                 >
                   <span
-                    >D-Music Ltd • 569 Yates St. • Victoria, BC V8W8K8,
+                    >Music Store Ltd • 569 Yates St. • Victoria, BC V8W8K8,
                     Canada</span
                   >
                 </p>
@@ -668,7 +668,7 @@ const CREATE_ORDER_EMAIL_TEMPLATE = {
         </tbody>
       </table>
     </div>
-    `
+    `,
 };
 
 const CREATE_CONTRACT_EMAIL_TEMPLATE = {
@@ -746,7 +746,7 @@ const CREATE_CONTRACT_EMAIL_TEMPLATE = {
       <td align="center" valign="top">
         <div style="width:100%;max-width:640px;margin:0 auto;text-align:center;padding:30px 15px;">
           <p style="margin:0;line-height:23px;font-size:12px;font-family:arial,sans-serif;color:#ffffff;">
-            <span>D-Music Ltd • 569 Yates St. • Victoria, BC V8W8K8, Canada</span>
+            <span>Music Store Ltd</span>
           </p>
           <img style="margin:48px 0 0 0;" src="${BACKEND_URL}/icons/logo.svg"/>
         </div>
@@ -756,7 +756,7 @@ const CREATE_CONTRACT_EMAIL_TEMPLATE = {
   </table>
 </div>
 
-    `
+    `,
 };
 
 const KYC_REJECTED_TEMPLATE = {
@@ -898,7 +898,7 @@ const KYC_REJECTED_TEMPLATE = {
                   style="margin: 0; line-height: 23px; font-size: 12px; font-family: arial, sans-serif; color: #ffffff"
                 >
                   <span
-                    >D-Music Ltd • 569 Yates St. • Victoria, BC V8W8K8,
+                    >Music Store Ltd • 569 Yates St. • Victoria, BC V8W8K8,
                     Canada</span
                   >
                 </p>
@@ -912,7 +912,7 @@ const KYC_REJECTED_TEMPLATE = {
         </tbody>
       </table>
     </div>
-    `
+    `,
 };
 const KYC_VERIFIED_TEMPLATE = {
   subject: "Congratulation",
@@ -1053,7 +1053,7 @@ const KYC_VERIFIED_TEMPLATE = {
                   style="margin: 0; line-height: 23px; font-size: 12px; font-family: arial, sans-serif; color: #ffffff"
                 >
                   <span
-                    >D-Music Ltd • 569 Yates St. • Victoria, BC V8W8K8,
+                    >Music Store Ltd • 569 Yates St. • Victoria, BC V8W8K8,
                     Canada</span
                   >
                 </p>
@@ -1067,7 +1067,7 @@ const KYC_VERIFIED_TEMPLATE = {
         </tbody>
       </table>
     </div>
-    `
+    `,
 };
 const KYC_UNDER_VERIFICATION_TEMPLATE = {
   subject: "Congratulation",
@@ -1208,7 +1208,7 @@ const KYC_UNDER_VERIFICATION_TEMPLATE = {
                   style="margin: 0; line-height: 23px; font-size: 12px; font-family: arial, sans-serif; color: #ffffff"
                 >
                   <span
-                    >D-Music Ltd • 569 Yates St. • Victoria, BC V8W8K8,
+                    >Music Store Ltd • 569 Yates St. • Victoria, BC V8W8K8,
                     Canada</span
                   >
                 </p>
@@ -1222,7 +1222,7 @@ const KYC_UNDER_VERIFICATION_TEMPLATE = {
         </tbody>
       </table>
     </div>
-    `
+    `,
 };
 module.exports = {
   KYC_REJECTED_TEMPLATE,
@@ -1234,5 +1234,5 @@ module.exports = {
   CREATE_ORDER_EMAIL_TEMPLATE,
   CREATE_CONTRACT_EMAIL_TEMPLATE,
   CREATE_ACCOUNT_HAS_TOKEN_TEMPLATE,
-  KYC_UNDER_VERIFICATION_TEMPLATE
+  KYC_UNDER_VERIFICATION_TEMPLATE,
 };
