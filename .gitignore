@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+/.gradle
+
+# env
+.env
+# editor
+/.idea
+
+# storage
+/files
+/avatars
